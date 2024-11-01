@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIORAMA</title>
+    <link rel="stylesheet" href="static/css/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>    
+    <ul class="nav">
+        <li><h1><a href="main.html">디오라마</a></h1></li>
+        <li class="bt">
+            <a href="main.html">MAIN</a>
+            <a href="architecture.html">ARCHITECTURE</a>
+            <a href="calender.html">CALENDER</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="#">ABOUT </a>
+        </li>
+    </ul>   
+</header>
+<main>
+    <ul class="section_1">
+        <li><a href="#" class="bt">DIORAMA</a></li>
+        <li><a href="#" class="bt">SPACE &</a></li>
+        <li><a href="#" class="bt">TOGETHER</a></li>
+        <li><a href="#" class="bt2">INQUIRY</a></li>
+        <li><a href="#" class="bt2">CALENDER</a></li>
+        <li><a href="#" class="bt2">RESERVATION</a></li>
+        <li><a href="#" class="bt2">ADVERTISEMENT</a></li>
+    </ul>
+    <ul class="section_2">
+        <li>
+            <p>01.</p>
+            <p>
+                스트리밍 서비스 <br>
+                예약 / 가격 문의 <br>
+                캘린더
+            </p>
+            <a href="#">더보기 -></a>
+        </li>
+        <li>
+            <p>02.</p>
+            <p>
+                광고 문의 <br>
+                예약 / 가격 문의 <br>
+                시간
+            </p>
+            <a href="#">더보기 -></a>
+        </li>
+        <li>
+            <p>03.</p>
+            <p>
+                모바일 서비스 <br>
+                채팅 내역 <br>
+                문의
+            </p>
+            <a href="#">더보기 -></a>
+        </li>
+        <li>
+            <p>04.</p>
+            <p>
+                위치 <br>
+                연락처 <br>
+                이메일
+            </p>
+            <a href="#">더보기 -></a>
+        </li>
+    </ul>
+    <ul class="section_3">
+        <li><a href="#">MOBILE SERVICES</a></li>
+        <li><a href="#">CHATTING SERVICES</a></li>
+        <li><a href="#">EXPRIENCE</a></li>
+    </ul>
+
+</main>
+<footer>
+    <ul>
+        <li class="ft">
+            <p>JOIN OUR SPACE</p>
+        </li>
+        <li class="ft_bt">
+            <a>FAQ</a>
+            <a>LANGUAGE</a>
+            <a>BRAND LOGO</a>
+            <a>SOSIAL INFO</a>
+            <a>SITE MAP</a>
+            <a>COPYRIGHT</a>
+        </li>
+    </ul>    
+</footer>
+<script>
+    
+    let observer = new IntersectionObserver((e)=>{
+        e.forEach((박스)=>{
+            if (박스.isIntersecting){
+                박스.target.style.opacity = 1;
+            }
+        })
+        박스.intersectonRatio
+    })
+
+    let li = document.querySelectorAll('.section_2 li')
+    observer.observe(li[0])
+    observer.observe(li[1])
+    observer.observe(li[2])
+    observer.observe(li[3])
+
+
+
+</script>
+</body>
+</html>

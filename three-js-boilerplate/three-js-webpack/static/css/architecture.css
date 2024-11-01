@@ -1,0 +1,248 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family:"helvetica-43-light-extended";
+    src:url("https://candyfonts.com/wp-data/2019/04/06/51278/HelveticaNeue-LightExt.otf") format("woff"),
+    url("https://candyfonts.com/wp-data/2019/04/06/51278/HelveticaNeue-LightExt.otf") format("opentype"),
+    url("https://candyfonts.com/wp-data/2019/04/06/51278/HelveticaNeue-LightExt.otf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: #000;
+}
+
+header {
+    width: 1800px;
+    height: 80px;
+    margin: 0 auto 70px auto;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav h1 {
+    width: 65px;
+    height: 43px;
+    text-indent: -9999px;
+    background: url(../img/logo.png);
+    margin-top: 2%;
+}
+
+.nav li:first-child {
+    flex: 1;
+}
+
+.nav li {
+    box-sizing: border-box;
+    height: 80px;
+    line-height: 80px;
+}
+
+.bt {
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.bt a {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    color: #888;
+}
+
+.bt a:nth-of-type(2) {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-position : under;
+    font-weight: 500;
+    text-decoration-thickness: 1.5px;
+}
+
+.bt a:hover {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-position : under;
+    text-decoration-thickness: 1.5px;
+    font-weight: 500;
+}
+
+main {
+    color: #fff;
+}
+
+.main_page {
+    width: 1800px;
+    height: 80vh;
+    padding-top: 3%;
+    font-size: 140pt;
+    font-family: "Montserrat", sans-serif;
+    margin: auto;
+    font-weight: lighter;
+    border-bottom: 1px solid #fff;
+}
+
+.main_page p:nth-of-type(2) {
+    float: right;
+}
+
+.video {
+    height: 100vh;
+    background: url(../img/video.png) center;
+}
+
+.line {
+    border-bottom: 1px solid #fff;
+    height: 30vh;
+}
+
+.title {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 55px;
+}
+
+.content {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.section_1 {
+    justify-content: space-between;
+    display: flex;
+    width: 80vw;
+    height: 40vh;
+    align-items: center;
+    margin: auto;
+}
+
+.section_1 .title {
+    width: 620px;
+}
+
+.section_1 .content {
+    width: 658px;
+}
+
+.section_2 {    
+    justify-content: space-between;
+    display: flex;
+    width: 80vw;
+    height: 90vh;
+    align-items: center;
+    margin: auto;
+}
+
+.section_2 .title {
+    width: 807px;
+    margin-bottom: 50px;
+}
+
+.section_2 .content {
+    width: 658px;
+}
+
+.section_2 .img0 {
+    background: url(../img/img.png);
+    width: 678px;
+    height: 465px;
+}
+
+.section_3 {
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    margin: auto;
+}
+
+.section_3 li {
+    width: 420px;
+    height: 600px;
+}
+
+.img1 {
+    width: 420px;
+    height: 287px;
+    background: url(../img/img.png);
+    background-size: cover;
+    margin-bottom: 70px;
+}
+
+.tl {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.ct {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+footer {
+    height: 185px;
+    padding-top: 45px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+footer ul {
+    width: 1800px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ft {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ft_bt {
+    color: #888;
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 18px;
+    
+}
+
+.ft_bt a {
+    width: 130px;
+}
+
+.ft_bt a:hover {
+    color: #fff;
+    cursor: pointer;
+}
